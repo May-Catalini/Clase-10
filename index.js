@@ -1,9 +1,9 @@
 function sumar(numero1, numero2) {
     let resultado = numero1 + numero2;
-    console.log(resultado);
+    return resultado;
 }
+console.log(sumar(2,5));
 
-sumar(2,5);
 
 
 function sumarTodo() {
@@ -13,5 +13,4 @@ function sumarTodo() {
     }
     return resultado;
 }
-
-console.log(sumarTodo(5,8,1));
+console.log(sumarTodo(5,10,1));
